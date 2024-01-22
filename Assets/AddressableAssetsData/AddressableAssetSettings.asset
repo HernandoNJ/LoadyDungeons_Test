@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 2c2fd892fd79aa848af98fda096515e7
   m_currentHash:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
+    Hash: 3e013fe4b9fc1b8700bcbe295bcf39cd
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_BundleLocalCatalog: 0
@@ -46,9 +46,9 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: f1816d49fc3a5c34d9b7d5cb40c9c7b8, type: 2}
   - {fileID: 11400000, guid: e0f403b990e10c349874036ba1762090, type: 2}
-  - {fileID: 11400000, guid: 4569dacb0fddc37418bd11e9414d0556, type: 2}
-  - {fileID: 11400000, guid: b5089f04f692f8641b95d521af712fec, type: 2}
-  - {fileID: 11400000, guid: 03fc5340d16f02441a0aa3738c3ced0c, type: 2}
+  - {fileID: 11400000, guid: 6cd1fe9c6b76d314ca9da7126f4ed869, type: 2}
+  - {fileID: 11400000, guid: 559991c4e6b0dbc4a85cec63e3c96926, type: 2}
+  - {fileID: 11400000, guid: f58a183a36936244d9fad92b4b0d0875, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -71,7 +71,7 @@ MonoBehaviour:
       - m_Id: 0710d859264918d4caea9375c37aeaa8
         m_Value: ServerData/[BuildTarget]
       - m_Id: 51d54a58aebb2d84a945d5dbc254222d
-        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+        m_Value: https://unity.com/{UnityEditor.PlayerSettings.productName}/[RemoteHost]_[BuildTarget]
     - m_InheritedParent: 
       m_Id: 9f0267577299c2940a3cf4331438d97c
       m_ProfileName: Development
@@ -87,7 +87,7 @@ MonoBehaviour:
       - m_Id: 0710d859264918d4caea9375c37aeaa8
         m_Value: ServerData/[BuildTarget]
       - m_Id: 51d54a58aebb2d84a945d5dbc254222d
-        m_Value: https://unity.com/{UnityEditor.PlayerSettings.productName}/[RemoteHost]_[BuildTarget]/
+        m_Value: https://unity.com/{UnityEditor.PlayerSettings.productName}/[RemoteHost]_[BuildTarget]
     - m_InheritedParent: 
       m_Id: 987e55ab630163c4faa227e2bb3bc515
       m_ProfileName: QA
@@ -103,7 +103,7 @@ MonoBehaviour:
       - m_Id: 0710d859264918d4caea9375c37aeaa8
         m_Value: ServerData/[BuildTarget]
       - m_Id: 51d54a58aebb2d84a945d5dbc254222d
-        m_Value: https://unity.com/{UnityEditor.PlayerSettings.productName}/[RemoteHost]_[BuildTarget]/
+        m_Value: https://unity.com/{UnityEditor.PlayerSettings.productName}/[RemoteHost]_[BuildTarget]
     - m_InheritedParent: 
       m_Id: d8950475d897a0a4c80112b5a03444fa
       m_ProfileName: Production
@@ -119,7 +119,7 @@ MonoBehaviour:
       - m_Id: 0710d859264918d4caea9375c37aeaa8
         m_Value: ServerData/[BuildTarget]
       - m_Id: 51d54a58aebb2d84a945d5dbc254222d
-        m_Value: https://unity.com/{UnityEditor.PlayerSettings.productName}/[RemoteHost]_[BuildTarget]/
+        m_Value: https://unity.com/{UnityEditor.PlayerSettings.productName}/[RemoteHost]_[BuildTarget]
     - m_InheritedParent: 
       m_Id: 06a99c9abdb1c0843b33dc3ff016efb0
       m_ProfileName: Release
@@ -135,7 +135,7 @@ MonoBehaviour:
       - m_Id: 0710d859264918d4caea9375c37aeaa8
         m_Value: ServerData/[BuildTarget]
       - m_Id: 51d54a58aebb2d84a945d5dbc254222d
-        m_Value: https://unity.com/{UnityEditor.PlayerSettings.productName}/[RemoteHost]_[BuildTarget]/
+        m_Value: https://unity.com/{UnityEditor.PlayerSettings.productName}/[RemoteHost]_[BuildTarget]
     m_ProfileEntryNames:
     - m_Id: a4abcfee603fe754d9418ca0feacb5ca
       m_Name: BuildTarget
@@ -159,9 +159,14 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - Fancy
+    - Hats
+    - Seasonal
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: b07b184aef75b3e4eb85e71fdfd06cb4, type: 2}
+  - {fileID: 11400000, guid: b6cbc2b17f03204499ee530b81c7e2f9, type: 2}
+  - {fileID: 11400000, guid: 4b7d30e01420b5a4a9b58c12d36e55a1, type: 2}
   m_InitializationObjects: []
   m_CertificateHandlerType:
     m_AssemblyName: 

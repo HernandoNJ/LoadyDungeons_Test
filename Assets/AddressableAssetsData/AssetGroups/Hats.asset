@@ -15,41 +15,53 @@ MonoBehaviour:
   m_GroupName: Hats
   m_Data:
     m_SerializedData: []
-  m_GUID: dc42724adaa0f0c43b498c305e3f6861
+  m_GUID: da278a79278a15f4aa8167f898fb9c8e
   m_SerializeEntries:
   - m_GUID: b53baa10142cbb346a47ab071d32889a
     m_Address: Hat00
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Fancy
+    - Seasonal
+    - Hats
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 173ee4c7d80755d47aa3339f970e8ade
     m_Address: Hat05
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Seasonal
+    - Hats
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 434c1413ad6a76842a3a98e6a21aefa5
     m_Address: Hat03
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Hats
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6e65281e8a345ff4ea1b73f2a1578a6d
     m_Address: Hat01
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Fancy
+    - Hats
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6c93cb6413eaf5f46bbe190dbbad2651
     m_Address: Hat02
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Fancy
+    - Hats
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dc8eb9039a6936749b8aad319953ab89
     m_Address: Hat04
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Seasonal
+    - Hats
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 8faf4a0aa2287174d9bd4dc33a827edb, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 007e73e1005967f4ab2fe3a7c6eca284, type: 2}
-    - {fileID: 11400000, guid: 2d560cf0245bb5245aba5acc13f8781e, type: 2}
+    - {fileID: 11400000, guid: 3554457e44acc124a93d580c97f53bd0, type: 2}
+    - {fileID: 11400000, guid: 1a90f994ea406b24faf4ee9b36c933ee, type: 2}

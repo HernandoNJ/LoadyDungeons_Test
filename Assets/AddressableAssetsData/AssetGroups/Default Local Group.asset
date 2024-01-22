@@ -16,7 +16,17 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 2c2fd892fd79aa848af98fda096515e7
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: c9957ebb9f32d7641b414b1bfd90379a
+    m_Address: LoadyDungeonsLogo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1e01d398699cc940a960600837600bd
+    m_Address: Assets/Scenes/LoadingScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 8faf4a0aa2287174d9bd4dc33a827edb, type: 2}
   m_SchemaSet:
