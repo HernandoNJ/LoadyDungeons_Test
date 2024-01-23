@@ -23,7 +23,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a1e01d398699cc940a960600837600bd
-    m_Address: Assets/Scenes/LoadingScene.unity
+    m_Address: LoadingScene
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
