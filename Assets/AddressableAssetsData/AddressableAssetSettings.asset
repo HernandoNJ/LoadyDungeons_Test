@@ -15,9 +15,9 @@ MonoBehaviour:
   m_DefaultGroup: 2c2fd892fd79aa848af98fda096515e7
   m_currentHash:
     serializedVersion: 2
-    Hash: 3e013fe4b9fc1b8700bcbe295bcf39cd
+    Hash: ce2ca39f5399c3ba49441773436251d2
   m_OptimizeCatalogSize: 0
-  m_BuildRemoteCatalog: 0
+  m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
   m_CatalogRequestsTimeout: 0
   m_DisableCatalogUpdateOnStart: 0
@@ -71,7 +71,7 @@ MonoBehaviour:
       - m_Id: 0710d859264918d4caea9375c37aeaa8
         m_Value: ServerData/[BuildTarget]
       - m_Id: 51d54a58aebb2d84a945d5dbc254222d
-        m_Value: https://unity.com/{UnityEditor.PlayerSettings.productName}/[RemoteHost]_[BuildTarget]
+        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
     - m_InheritedParent: 
       m_Id: 9f0267577299c2940a3cf4331438d97c
       m_ProfileName: Development
@@ -177,10 +177,39 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bb30efeb5cd9c7f46aaec30eb7504be3, type: 2}
   - {fileID: 11400000, guid: 85d673be6c89ea347a5a1c15830f3f43, type: 2}
   - {fileID: 11400000, guid: 949ba1ae597cdce4cb9dfb695bde4b8c, type: 2}
-  m_ActiveProfileId: 9f0267577299c2940a3cf4331438d97c
+  m_ActiveProfileId: 3ceee22152134834081a531c75c746e1
   m_HostingServicesManager:
-    m_HostingServiceInfos: []
+    m_HostingServiceInfos:
+    - classRef: UnityEditor.AddressableAssets.HostingServices.HttpHostingService,
+        Unity.Addressables.Editor
+      dataStore:
+        m_SerializedData:
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.Int32
+          m_Data: 57194
+          m_Key: HostingServicePort
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.Int32
+          m_Data: 5000
+          m_Key: HostingServiceUploadSpeed
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.String
+          m_Data: Library/com.unity.addressables/aa/Android/Android;ServerData/Android
+          m_Key: ContentRoot
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.Boolean
+          m_Data: True
+          m_Key: IsEnabled
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.String
+          m_Data: Local Hosting Service
+          m_Key: DescriptiveName
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.Int32
+          m_Data: 0
+          m_Key: InstanceId
     m_Settings: {fileID: 11400000}
-    m_NextInstanceId: 0
-    m_RegisteredServiceTypeRefs: []
+    m_NextInstanceId: 2
+    m_RegisteredServiceTypeRefs:
+    - UnityEditor.AddressableAssets.HostingServices.HttpHostingService, Unity.Addressables.Editor
     m_PingTimeoutInMilliseconds: 5000
